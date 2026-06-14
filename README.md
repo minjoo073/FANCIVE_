@@ -1,5 +1,7 @@
 # FANCIVE — Portfolio
 
+🌐 **Live site → [fancive.vercel.app](https://fancive.vercel.app)**
+
 A lifestyle fashion brand inspired by vintage boudoir aesthetics and quiet luxury.
 
 Single-page editorial portfolio built as a 1920×11573 design canvas that scales uniformly to any viewport ≤ 1920px (desktop / 1440 / tablet).
