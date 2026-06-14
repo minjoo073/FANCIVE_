@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/hero_bg.png",
+        url: "/images/hero_bg.webp",
         width: 1920,
         height: 1079,
         alt: "FANCIVE portfolio hero",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: TITLE,
     description: DESCRIPTION,
-    images: ["/images/hero_bg.png"],
+    images: ["/images/hero_bg.webp"],
   },
 };
 

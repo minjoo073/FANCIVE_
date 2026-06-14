@@ -26,9 +26,9 @@ const contributionMeta = [
 ];
 
 const questionImages = [
-  { src: `${IMG}/THE_QUESTION_img1.png`, alt: "The QUESTION visual 1", className: "w-[262px] h-[262px] aspect-[1]" },
-  { src: `${IMG}/THE_QUESTION_img2.png`, alt: "The QUESTION visual 2", className: "w-[261px] h-[352px] mt-[19px] aspect-[0.74]" },
-  { src: `${IMG}/THE_QUESTION_img3.png`, alt: "The QUESTION visual 3", className: "w-[262px] h-[359px] mt-[21px] aspect-[0.73]" },
+  { src: `${IMG}/THE_QUESTION_img1.webp`, alt: "The QUESTION visual 1", className: "w-[262px] h-[262px] aspect-[1]" },
+  { src: `${IMG}/THE_QUESTION_img2.webp`, alt: "The QUESTION visual 2", className: "w-[261px] h-[352px] mt-[19px] aspect-[0.74]" },
+  { src: `${IMG}/THE_QUESTION_img3.webp`, alt: "The QUESTION visual 3", className: "w-[262px] h-[359px] mt-[21px] aspect-[0.73]" },
 ];
 
 const conceptKeywords = [
@@ -40,21 +40,21 @@ const conceptKeywords = [
 ];
 
 const rightPreviewImages = [
-  { src: `${IMG}/right_img1.png`, alt: "Right preview 1", className: "w-[289px] h-[315px] aspect-[0.92]" },
-  { src: `${IMG}/right_img2.png`, alt: "Right preview 2", className: "w-[245px] h-[315px] ml-[24px] aspect-[0.78]" },
-  { src: `${IMG}/right_img3.png`, alt: "Right preview 3", className: "mt-px w-[196px] h-[314px] ml-[23px] aspect-[0.62]" },
+  { src: `${IMG}/right_img1.webp`, alt: "Right preview 1", className: "w-[289px] h-[315px] aspect-[0.92]" },
+  { src: `${IMG}/right_img2.webp`, alt: "Right preview 2", className: "w-[245px] h-[315px] ml-[24px] aspect-[0.78]" },
+  { src: `${IMG}/right_img3.webp`, alt: "Right preview 3", className: "mt-px w-[196px] h-[314px] ml-[23px] aspect-[0.62]" },
 ];
 
 const collectionImages = [
-  { src: `${IMG}/collection_img1.png`, alt: "Collection image 1", className: "absolute top-px left-0 w-[315px] h-[342px] aspect-[0.92]" },
-  { src: `${IMG}/collection_img3.png`, alt: "Collection image 3", className: "absolute top-0 left-[332px] w-[272px] h-[514px] aspect-[0.53]" },
-  { src: `${IMG}/collection_img5.png`, alt: "Collection image 5", className: "absolute top-0 left-[621px] w-[412px] h-[329px] aspect-[1.25]" },
-  { src: `${IMG}/collection_img2.png`, alt: "Collection image 2", className: "absolute top-[360px] left-0 w-[315px] h-[437px] aspect-[0.72]" },
-  { src: `${IMG}/collection_img4.png`, alt: "Collection image 4", className: "absolute top-[531px] left-[332px] w-[365px] h-[266px] aspect-[1.37]" },
-  { src: `${IMG}/collection_img6.png`, alt: "Collection image 6", className: "absolute top-[346px] left-[714px] w-[438px] h-[451px] aspect-[0.97]" },
-  { src: `${IMG}/collection_img7.png`, alt: "Collection image 7", className: "absolute top-0 left-[1050px] w-[286px] h-[329px] aspect-[0.87]" },
-  { src: `${IMG}/collection_img8.png`, alt: "Collection image 8", className: "absolute top-px left-[1353px] w-[342px] h-[543px] aspect-[0.63]" },
-  { src: `${IMG}/collection_img9.png`, alt: "Collection image 9", className: "absolute top-[561px] left-[1170px] w-[525px] h-[236px] aspect-[2.22]" },
+  { src: `${IMG}/collection_img1.webp`, alt: "Collection image 1", className: "absolute top-px left-0 w-[315px] h-[342px] aspect-[0.92]" },
+  { src: `${IMG}/collection_img3.webp`, alt: "Collection image 3", className: "absolute top-0 left-[332px] w-[272px] h-[514px] aspect-[0.53]" },
+  { src: `${IMG}/collection_img5.webp`, alt: "Collection image 5", className: "absolute top-0 left-[621px] w-[412px] h-[329px] aspect-[1.25]" },
+  { src: `${IMG}/collection_img2.webp`, alt: "Collection image 2", className: "absolute top-[360px] left-0 w-[315px] h-[437px] aspect-[0.72]" },
+  { src: `${IMG}/collection_img4.webp`, alt: "Collection image 4", className: "absolute top-[531px] left-[332px] w-[365px] h-[266px] aspect-[1.37]" },
+  { src: `${IMG}/collection_img6.webp`, alt: "Collection image 6", className: "absolute top-[346px] left-[714px] w-[438px] h-[451px] aspect-[0.97]" },
+  { src: `${IMG}/collection_img7.webp`, alt: "Collection image 7", className: "absolute top-0 left-[1050px] w-[286px] h-[329px] aspect-[0.87]" },
+  { src: `${IMG}/collection_img8.webp`, alt: "Collection image 8", className: "absolute top-px left-[1353px] w-[342px] h-[543px] aspect-[0.63]" },
+  { src: `${IMG}/collection_img9.webp`, alt: "Collection image 9", className: "absolute top-[561px] left-[1170px] w-[525px] h-[236px] aspect-[2.22]" },
 ];
 
 const closingColumns = [
@@ -87,10 +87,10 @@ export default function Home() {
           {/* Parallax wrappers — CustomCursor applies translate3d; child img stays free
               for GSAP fades and CSS hover. */}
           <div className="hero-parallax-bg absolute top-0 left-0 w-[1920px] h-[1079px] will-change-transform">
-            <img className="no-hover w-full h-full object-cover" alt="Hero background" src={`${IMG}/hero_bg.png`} />
+            <img className="no-hover w-full h-full object-cover" alt="Hero background" src={`${IMG}/hero_bg.webp`} />
           </div>
           <div className="absolute top-[754px] left-[370px] w-[1076px] h-[213px] overflow-hidden">
-            <img className="no-hover hero-fade hero-wordmark w-full h-full" alt="FANCIVE — hero wordmark" src={`${IMG}/hero_logo.png`} />
+            <img className="no-hover hero-fade hero-wordmark w-full h-full" alt="FANCIVE — hero wordmark" src={`${IMG}/hero_logo.webp`} />
           </div>
           <div className="absolute top-[326px] left-[370px] w-[759px] h-[427px] overflow-hidden">
             <video
@@ -100,7 +100,7 @@ export default function Home() {
               loop
               playsInline
               preload="auto"
-              poster={`${IMG}/model_3_.png`}
+              poster={`${IMG}/model_3_.webp`}
               aria-label="Hero model"
             >
               <source src="/videos/hero_model.mp4" type="video/mp4" />
@@ -142,7 +142,7 @@ export default function Home() {
           <img
             className="no-hover absolute top-[1079px] left-0 w-[1920px] h-[1080px] object-cover"
             alt="Project overview background"
-            src={`${IMG}/PROJECT_OVERVIEW_bg.png`}
+            src={`${IMG}/PROJECT_OVERVIEW_bg.webp`}
             loading="lazy"
           />
           <div className="reveal absolute top-[1229px] left-[200px] font-pretendard font-semibold text-ink-faint text-2xl">
@@ -151,7 +151,7 @@ export default function Home() {
           <img
             className="mask-reveal absolute top-[1304px] left-[711px] w-[492px] h-[587px]"
             alt="Project overview"
-            src={`${IMG}/PROJECT_OVERVIEW_img.png`}
+            src={`${IMG}/PROJECT_OVERVIEW_img.webp`}
             loading="lazy"
           />
           <div className="reveal absolute top-[1852px] left-[267px] w-[1389px] h-[152px] flex flex-col gap-[30px]">
@@ -178,7 +178,7 @@ export default function Home() {
           <img
             className="no-hover absolute top-[2159px] left-0 w-[1920px] h-[1080px] object-cover"
             alt="The question background"
-            src={`${IMG}/THE_QUESTION_bg.png`}
+            src={`${IMG}/THE_QUESTION_bg.webp`}
             loading="lazy"
           />
           <div className="absolute top-[2193px] left-[1398px] w-[262px] h-[1013px] flex flex-col z-10">
@@ -219,7 +219,7 @@ export default function Home() {
           <img
             className="no-hover absolute top-[3239px] left-0 w-[1920px] h-[1080px] object-cover"
             alt="Concept background"
-            src={`${IMG}/CONCEPT_DEVELOPMENT_bg.png`}
+            src={`${IMG}/CONCEPT_DEVELOPMENT_bg.webp`}
             loading="lazy"
           />
           <div className="reveal flex-col w-[693px] items-start gap-[100px] top-[3389px] left-[200px] flex absolute">
@@ -252,7 +252,7 @@ export default function Home() {
             <img
               className="mask-reveal absolute top-[205px] left-[69px] w-[336px] h-[402px]"
               alt="Concept development"
-              src={`${IMG}/CONCEPT_DEVELOPMENT_img.png`}
+              src={`${IMG}/CONCEPT_DEVELOPMENT_img.webp`}
               loading="lazy"
             />
             {conceptKeywords.map((kw) => (
@@ -271,7 +271,7 @@ export default function Home() {
         <section id="visual-identity" aria-label="Visual identity">
           {/* Section covers two screens (2160px) to give 04 room to breathe. */}
           <div className="absolute top-[4319px] left-0 w-[1920px] h-[2160px] bg-paper" />
-          <img className="mask-reveal absolute top-[4319px] left-0 w-[944px] h-[1080px]" alt="Left visual" src={`${IMG}/left_img.png`} loading="lazy" />
+          <img className="mask-reveal absolute top-[4319px] left-0 w-[944px] h-[1080px]" alt="Left visual" src={`${IMG}/left_img.webp`} loading="lazy" />
           <div className="absolute top-[4858px] left-[944px] w-[976px] h-px bg-ink-divider" aria-hidden />
           <div className="absolute top-[4716px] left-[1056px] w-[777px] h-[315px] flex">
             {rightPreviewImages.map((image) => (
@@ -305,9 +305,9 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute top-[5537px] left-[1203px] w-[599px] h-[881px]">
-            <img className="mask-reveal absolute top-[100px] left-0 w-[212px] h-[282px] object-cover" alt="Visual identity 2" src={`${IMG}/VISUAL_IDENTITY_img2.png`} loading="lazy" />
-            <img className="mask-reveal absolute top-[431px] left-[138px] w-[338px] h-[450px] object-cover" alt="Visual identity 3" src={`${IMG}/VISUAL_IDENTITY_img3.png`} loading="lazy" />
-            <img className="mask-reveal absolute top-0 left-[289px] w-[310px] h-[310px]" alt="Visual identity 1" src={`${IMG}/VISUAL_IDENTITY_img1.png`} loading="lazy" />
+            <img className="mask-reveal absolute top-[100px] left-0 w-[212px] h-[282px] object-cover" alt="Visual identity 2" src={`${IMG}/VISUAL_IDENTITY_img2.webp`} loading="lazy" />
+            <img className="mask-reveal absolute top-[431px] left-[138px] w-[338px] h-[450px] object-cover" alt="Visual identity 3" src={`${IMG}/VISUAL_IDENTITY_img3.webp`} loading="lazy" />
+            <img className="mask-reveal absolute top-0 left-[289px] w-[310px] h-[310px]" alt="Visual identity 1" src={`${IMG}/VISUAL_IDENTITY_img1.webp`} loading="lazy" />
           </div>
         </section>
 
@@ -318,7 +318,7 @@ export default function Home() {
           <img
             className="no-hover absolute w-[1920px] h-[3797px] top-[6697px] left-0"
             alt="Website background"
-            src={`${IMG}/website_bg.png`}
+            src={`${IMG}/website_bg.webp`}
             loading="lazy"
             style={{
               maskImage:
@@ -359,7 +359,7 @@ export default function Home() {
             <img
               className="block w-[1520px] h-[855px] object-cover"
               alt="Main page mockup"
-              src={`${IMG}/main_page_img.png`}
+              src={`${IMG}/main_page_img.webp`}
               loading="lazy"
             />
           </div>
@@ -372,7 +372,7 @@ export default function Home() {
             <img
               className="block w-[1520px] h-[855px] object-cover"
               alt="Sub page mockup"
-              src={`${IMG}/sub_img.png`}
+              src={`${IMG}/sub_img.webp`}
               loading="lazy"
             />
           </div>
@@ -402,7 +402,7 @@ export default function Home() {
           <img
             className="no-hover absolute top-[10494px] left-0 w-[1920px] h-[1079px] object-cover"
             alt="Closing background"
-            src={`${IMG}/closing_bg.png`}
+            src={`${IMG}/closing_bg.webp`}
             loading="lazy"
             style={{
               maskImage: "linear-gradient(to bottom, transparent 0, black 420px)",
@@ -415,7 +415,7 @@ export default function Home() {
           <div className="reveal absolute top-[10710px] left-[329px] font-pretendard font-semibold text-ink-muted text-[13px] tracking-[0.14em]">
             PROJECT INFO
           </div>
-          <img className="no-hover absolute top-[10778px] left-[329px] w-[374px] h-[74px]" alt="FANCIVE — closing wordmark" src={`${IMG}/closing_logo.png`} loading="lazy" />
+          <img className="no-hover absolute top-[10778px] left-[329px] w-[374px] h-[74px]" alt="FANCIVE — closing wordmark" src={`${IMG}/closing_logo.webp`} loading="lazy" />
           <div className="reveal absolute top-[10777px] left-[753px] w-[420px] flex flex-col gap-[10px]">
             <p lang="en" className="font-pretendard font-light text-ink text-[18px] whitespace-nowrap">
               Lingerie &amp; Boudoir Fashion Branding
@@ -424,7 +424,7 @@ export default function Home() {
               Editorial Archive Website
             </p>
           </div>
-          <img className="absolute top-[10680px] left-[1187px] w-[533px] h-[715px]" alt="Closing object" src={`${IMG}/as_i_7.png`} loading="lazy" />
+          <img className="absolute top-[10680px] left-[1187px] w-[533px] h-[715px]" alt="Closing object" src={`${IMG}/as_i_7.webp`} loading="lazy" />
 
           {closingColumns.map((column) => (
             <div key={column.title} className={column.wrapperClassName}>
