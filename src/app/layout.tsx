@@ -21,6 +21,7 @@ const DESCRIPTION =
   "FANCIVE — A lifestyle fashion brand inspired by vintage boudoir aesthetics and quiet luxury.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fancive.vercel.app"),
   title: TITLE,
   description: DESCRIPTION,
   openGraph: {
